@@ -11,5 +11,10 @@ g++ -o2 -o main.app main.cpp mathplot.cpp connectargsdlg.cpp serialport.cpp `wx-
 </br>
 Demo video：
 </br>
+</br>
 
 [![Audi R8](http://img.youtube.com/vi/26pw-d6lBSQ/0.jpg)](https://youtu.be/26pw-d6lBSQ)
+
+</br>
+</br>
+Reference：https://morf.lv/implementing-pulse-oximeter-using-max30100

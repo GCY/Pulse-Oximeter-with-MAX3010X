@@ -17,4 +17,6 @@ Demo video：
 
 </br>
 </br>
-Reference：https://morf.lv/implementing-pulse-oximeter-using-max30100
+Reference：
+1. https://morf.lv/implementing-pulse-oximeter-using-max30100
+2. http://www.ti.com/lit/an/slaa274b/slaa274b.pdf

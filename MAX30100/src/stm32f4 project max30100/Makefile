@@ -28,6 +28,8 @@ AFLAGS	= $(MCFLAGS)
 SRC = main.c \
 	stm32f4xx_it.c \
 	system_stm32f4xx.c \
+	VCP.c \
+	I2C.c \
 	max30100.c \
 	./usb_cdc_device/*.c \
 	../../Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c \

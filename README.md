@@ -14,11 +14,11 @@ First, select MAX3010x type.
 </br>
 
 ```cpp
- #define _MAX30102_</br>
+ #define _MAX30102_
 //#define _MAX30100_
 ```
 
- - Make or include "./Library/MAX3010x.h"
+ - Make "./MAX3010x/src/stm32f4 project max3010x" or include "./Library/MAX3010x.h"  into your project.
  - Load main.elf file to STM32F4
 
 ### Demo：

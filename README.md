@@ -1,5 +1,6 @@
 # Pulse-Oximeter-with-MAX3010X
-Pulse Oximeter Signal Process Demo, MAC OS X Monitor and STM32F4
+This project is MAX3010x library for STM32F4, currently supported MAX30100、MAX30102.
+The Pulse Oximeter Monitor is a simple PC-Host tool for PPG signal used in pulse oximetry for the computation of oxygen saturation(SpO2).  
 
 1.Pulse Oximeter Monitor Compile：
 </br>

@@ -2,12 +2,13 @@
 This project is MAX3010x library for STM32F4, currently supported MAX30100、MAX30102. </br>
 The Pulse Oximeter Monitor is a simple PC-Host tool for PPG signal used in pulse oximetry for the computation of oxygen saturation(SpO2).  
 
-1.Pulse Oximeter Monitor Compile：
+## USE
+### 1. Pulse Oximeter Monitor Compile：
 </br>
 g++ -o2 -o main.app main.cpp mathplot.cpp connectargsdlg.cpp serialport.cpp \`wx-config --cxxflags --libs\` --std=c++11 -m64 </br>
-2. Build stm32f4 project : Make
+### 2. Build stm32f4 project : Make
 </br>
-3. Connect STM32F4 Device to Monitor with VCP
+### 3. Connect STM32F4 Device to Monitor with VCP
 </br>
 </br>
 Demo video：

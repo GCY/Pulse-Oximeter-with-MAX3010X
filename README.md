@@ -8,6 +8,11 @@ The Pulse Oximeter Monitor is a simple PC-Host tool for PPG signal used in pulse
  - g++ -o2 -o main.app main.cpp mathplot.cpp connectargsdlg.cpp serialport.cpp \`wx-config --cxxflags --libs\` --std=c++11 -m64 
 
 ### 2. Build stm32f4 project : 
+First, select MAX3010x type.
+<code>
+ #define _MAX30102_
+//#define _MAX30100_
+ </code>
  - Make or include "./Library/MAX3010x.h"
  - Load main.elf file to STM32F4
 

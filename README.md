@@ -17,7 +17,33 @@ Demo video：
 
 </br>
 </br>
-Reference：</br>
-1. https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
-2. http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
-3. http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
+
+## Reference：
+ - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
+ - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
+ - http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
+ 
+ LICENSE
+-------
+
+MIT License
+
+Copyright (c) 2018 GCY
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

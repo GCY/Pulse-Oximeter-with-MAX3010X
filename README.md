@@ -4,12 +4,12 @@ The Pulse Oximeter Monitor is a simple PC-Host tool for PPG signal used in pulse
 
 ## USE
 ### 1. Pulse Oximeter Monitor Compile：
-</br>
-g++ -o2 -o main.app main.cpp mathplot.cpp connectargsdlg.cpp serialport.cpp \`wx-config --cxxflags --libs\` --std=c++11 -m64 </br>
-### 2. Build stm32f4 project : Make
-</br>
-### 3. Connect STM32F4 Device to Monitor with VCP
-</br>
+
+ - g++ -o2 -o main.app main.cpp mathplot.cpp connectargsdlg.cpp serialport.cpp \`wx-config --cxxflags --libs\` --std=c++11 -m64 
+
+### 2. Build stm32f4 project : 
+ - Make or include "./Library/MAX3010x.h"
+
 </br>
 Demo video：
 </br>

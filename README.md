@@ -19,7 +19,7 @@ Demo video：
 </br>
 
 ## Reference：
- - 1. https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
- - 2. http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
- - 3. http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
+ -1. https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
+ -2. http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
+ -3. http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
 

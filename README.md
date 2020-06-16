@@ -31,6 +31,15 @@ First, select MAX3010x type.
 
 </br>
 
+## Near-Infrared Rpectroscopy (NIRS) measure oxygenation in a whole blood
+
+The aim of pulse oximetry is to measure the percentage of oxygenated hemoglobin (HbO2) to the total hemoglobin (Hb) (oxygenated plus deoxygenated) in the arterial blood – this is referred to as SpO2. Oxygenated hemoglobin in the blood is distinctively red, whereas deoxygenated hemoglobin in the blood has a characteristic dark blue coloration. measures light absorbance at one wavelength (or more wavelengths) where there is a large difference between Hb and HbO2 and at another wavelength (or more wavelengths) to quantify oxygen saturation
+
+Absorption spectroscopy – oxygen saturation
+![Biomedical Photonics Handbook, Figure 29.2]()
+
+For SpO2 measure the ratios between our two readings(IR and RED), on base level their DC levels should be nearly identical.
+
 ## Reference：
  - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
  - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>

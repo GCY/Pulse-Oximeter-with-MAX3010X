@@ -61,7 +61,7 @@ Finally, the normalized R/IR “ratio of ratios” can then be related empirical
 The ratio R between these two wavelengths is defined with the following equations:
 R = (red_ac/red_dc) / (ir_ac/ir_dc)
 
-Or it can also be Beer-Lambert Law
+Or it can also be Beer-Lambert Law:
 R = log(red_ac) / log(ir_ac)
 
 Linear Regression model of SpO2 = a + b * R-ratio
@@ -70,9 +70,12 @@ Linear Regression model of SpO2 = a + b * R-ratio
 Note：you’ll need to calibrate the model of computing SpO2.
 
 ## Reference：
- - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
- - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
- - http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
+ - https://morf.lv/implementing-pulse-oximeter-using-max30100 
+ - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf 
+ - http://www.ti.com/lit/ug/tidu542/tidu542.pdf 
+ - https://datasheets.maximintegrated.com/en/ds/MAX30100.pdf
+ - https://datasheets.maximintegrated.com/en/ds/MAX30101.pdf
+ - https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
  - [Biomedical Photonics Handbook](https://books.google.com.tw/books?id=Pl4wsXCiZdQC&pg=SA29-PA2&lpg=SA29-PA2&dq=Biomedical+Photonics+Handbook,+Figure+29.2&source=bl&ots=S9G1e1hksl&sig=ACfU3U1ysW_Pg7jeCagiaYxPfjGsRmO1gg&hl=zh-TW&sa=X&ved=2ahUKEwiktcDUpIXqAhUMH3AKHaWfANUQ6AEwAXoECAsQAQ#v=onepage&q=Biomedical%20Photonics%20Handbook%2C%20Figure%2029.2&f=false)
  
  LICENSE

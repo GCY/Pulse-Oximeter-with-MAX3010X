@@ -67,7 +67,7 @@ R = log(red_ac) / log(ir_ac)
 Linear Regression model of SpO2 = a + b * R-ratio
 ```
 
-Note：you’ll need to calibrate the model of computing SpO2ㄡ
+Note：you’ll need to calibrate the model of computing SpO2.
 
 ## Reference：
  - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>

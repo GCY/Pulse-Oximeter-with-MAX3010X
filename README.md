@@ -40,6 +40,20 @@ Absorption spectroscopy – oxygen saturation
 
 For SpO2 measure the ratios between our two readings(IR and RED), on base level their DC levels should be nearly identical.
 
+MAX30100 adjustment strategy (step 0~15 = 0mA~51mA)：
+ - If RED_DC > IR_DC then decrease RED current (-1)
+ - If RED_DC < IR_DC then increase RED current (+1)
+ 
+MAX30102 adjustment strategy (step 0~255 = 0mA~51mA)：
+decay_coeff = adjustment decay rate.
+decay_counter = count(ordinal) of adjustment.
+decay_factor = exp(decay_coeff * decay_counter);
+ - If RED_DC > IR_DC then decrease RED step of decay_factor value, decay_counter += 1
+ - If RED_DC < IR_DC then increase RED step of decay_factor value, decay_counter += 1
+ - If (RED_DC - IR_DC) < Threshold(MAGIC_ACCEPTABLE_INTENSITY_DIFF) then decay_counter
+
+If decay_coeff too small, it will result in a lot of oscillation.
+
 ![Adjustment Strategy](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/DC-Level%20adjustment%20strategies.png)
 
 ## Reference：

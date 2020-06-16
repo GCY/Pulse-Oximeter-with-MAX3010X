@@ -52,7 +52,7 @@ decay_factor = exp(decay_coeff * decay_counter);
  - If RED_DC < IR_DC then increase RED step of decay_factor value, decay_counter += 1
  - If (RED_DC - IR_DC) < Threshold(MAGIC_ACCEPTABLE_INTENSITY_DIFF) then decay_counter = 0, done
 
-If decay_coeff too small, it will result in a lot of oscillation.
+If decay_coeff or RED_LED_CURRENT_ADJUSTMENT_NS too small, it will result in a lot of oscillation.
 
 ![Adjustment Strategy](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/DC-Level%20adjustment%20strategies.png)
 

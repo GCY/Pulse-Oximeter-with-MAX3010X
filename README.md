@@ -56,6 +56,19 @@ If decay_coeff or RED_LED_CURRENT_ADJUSTMENT_NS too small, it will result in a l
 
 ![Adjustment Strategy](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/DC-Level%20adjustment%20strategies.png)
 
+Finally, the normalized R/IR “ratio of ratios” can then be related empirically to SpO2.
+```cpp
+The ratio R between these two wavelengths is defined with the following equations:
+R = (red_ac/red_dc) / (ir_ac/ir_dc)
+
+Or it can also be Beer-Lambert Law
+R = log(red_ac) / log(ir_ac)
+
+Linear Regression model of SpO2 = a + b * R-ratio
+```
+
+Note：you’ll need to calibrate the model of computing SpO2ㄡ
+
 ## Reference：
  - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
  - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>

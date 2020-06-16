@@ -44,6 +44,7 @@ For SpO2 measure the ratios between our two readings(IR and RED), on base level 
  - https://morf.lv/implementing-pulse-oximeter-using-max30100 </br>
  - http://www.ti.com/lit/an/slaa274b/slaa274b.pdf </br>
  - http://www.ti.com/lit/ug/tidu542/tidu542.pdf </br>
+ - [Biomedical Photonics Handbook](https://books.google.com.tw/books?id=Pl4wsXCiZdQC&pg=SA29-PA2&lpg=SA29-PA2&dq=Biomedical+Photonics+Handbook,+Figure+29.2&source=bl&ots=S9G1e1hksl&sig=ACfU3U1ysW_Pg7jeCagiaYxPfjGsRmO1gg&hl=zh-TW&sa=X&ved=2ahUKEwiktcDUpIXqAhUMH3AKHaWfANUQ6AEwAXoECAsQAQ#v=onepage&q=Biomedical%20Photonics%20Handbook%2C%20Figure%2029.2&f=false)
  
  LICENSE
 -------

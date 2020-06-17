@@ -33,7 +33,8 @@
 #include "usb_regs.h"
 
 #define USBD_VID                        0x0483
-#define USBD_PID                        0x5710
+#define USBD_PID                        0x5740	// Install STSW-STM32102 for windows10
+//#define USBD_PID                        0x5710		// MAC
 
 /** @defgroup USB_String_Descriptors
   * @{

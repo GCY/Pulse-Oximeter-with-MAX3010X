@@ -2,6 +2,10 @@
 This project is MAX3010x library for STM32F4, currently supported MAX30100、MAX30102. </br>
 The Pulse Oximeter Monitor is a simple PC-Host tool for PPG signal used in pulse oximetry for the computation of oxygen saturation(SpO2).  
 
+<p align="center">
+ <img src="https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/MAX30102%20Demo.gif">
+</p>
+
 ![MAX30102](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/max30102.jpg)
 
 ## USE
@@ -22,10 +26,6 @@ First, select MAX3010x type.
  - Load main.elf file to STM32F4
 
 ### Demo：
-
-<p align="center">
- <img src="https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/MAX30102%20Demo.gif">
-</p>
 
 </br>
 

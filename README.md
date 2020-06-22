@@ -23,7 +23,9 @@ First, select MAX3010x type.
 
 ### Demo：
 
-![MAX30102 DEMO](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/MAX30102%20Demo.gif)
+<p align="center">
+ <img src="https://github.com/GCY/Pulse-Oximeter-with-MAX3010X/blob/master/res/MAX30102%20Demo.gif">
+</p>
 
 </br>
 

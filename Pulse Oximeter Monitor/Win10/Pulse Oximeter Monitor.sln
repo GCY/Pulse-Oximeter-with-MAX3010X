@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pulse Oximeter Monitor", "Pulse Oximeter Monitor.vcxproj", "{43DC0445-072F-4537-B14E-DA84DCCDE854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Debug|x64.ActiveCfg = Debug|x64
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Debug|x64.Build.0 = Debug|x64
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Debug|x86.ActiveCfg = Debug|Win32
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Debug|x86.Build.0 = Debug|Win32
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Release|x64.ActiveCfg = Release|x64
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Release|x64.Build.0 = Release|x64
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Release|x86.ActiveCfg = Release|Win32
+		{43DC0445-072F-4537-B14E-DA84DCCDE854}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {314B1AB3-2D24-4F47-8B9B-16B77BCCE7CF}
+	EndGlobalSection
+EndGlobal

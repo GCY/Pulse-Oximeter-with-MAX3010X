@@ -15,7 +15,10 @@
 #include <stm32f4xx_rcc.h>
 #include <stm32f4xx_dma.h>
 #include <stm32f4xx_rtc.h>
+#include "I2C.h"
 
+
+extern void Delay(__IO uint32_t);
 #define _MAX30102_
 //#define _MAX30100_
 
